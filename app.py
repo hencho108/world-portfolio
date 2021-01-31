@@ -143,4 +143,4 @@ def run_simulation(n_clicks, avg_return, std, start_amount, monthly_invest, n_ye
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)#, host='0.0.0.0')
+    app.run_server(debug=False)#, host='0.0.0.0')
